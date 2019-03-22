@@ -17,3 +17,7 @@
 - [windows安装文档](https://blog.csdn.net/m075097/article/details/79639116)
 - [macos安装文档](https://blog.csdn.net/wangjunling888/article/details/80768285)
 - [linux安装文档](https://flutter.io/setup-linux/)
+
+## cocoaPods安装常见问题
+
+- [解决Mac10.13 Pod报错 -bash: /usr/local/bin/pod: ](https://blog.csdn.net/xuyang844175181/article/details/79162068) 
