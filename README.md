@@ -10,6 +10,8 @@
 
 
 ## Flutter学习资料
+在iOS中需要安装cocoaPods,未安装会报错：
+ error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
 
 - [cocoaPods的安装和使用](https://www.jianshu.com/p/b656c3c59af5)
 - [windows安装文档](https://blog.csdn.net/m075097/article/details/79639116)
