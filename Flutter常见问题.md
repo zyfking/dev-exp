@@ -17,7 +17,10 @@
 ## Flutter项目在 Resolving dependencies 时卡住的解决办法
 
 仓库不可访问导致，由于google() 这个仓库地址是： https://dl.google.com/dl/android/maven2/com/ ，可能会出现无法访问的情况，		这时候只需要优先使用国内的阿里云仓库就可以了；
-需要注意的是，使用的classpath 的gradle版本要可用，阿里云仓库不一定有最新的gradle 版本，具体版本在 阿里云仓库 中对应的参考目录下查找， 查找规则为：com/android/tools/build/gradle/， 如果不存在会导致下载失败；
+需要注意的是，使用的classpath 的gradle版本要可用，阿里云仓库不一定有最新的gradle 版本，具体版本在 阿里云仓库 中对应的参考目录下查找， 查找规则为：
+com/android/tools/build/gradle/， 如果不存在会导致下载失败；
+   阿里云的maven仓库地址:  https://maven.aliyun.com/mvn/view 
+
 ### 解决办法1：
 想要设置仓库，只要在文件目录的/android/build.gradle 文件中，将buildscript 的repositories 字段改成如下代码即可：
 ```
